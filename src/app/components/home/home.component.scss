@@ -1,0 +1,29 @@
+.logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-new-info-btn {
+    position: absolute;
+    top: 5%;
+    right: 1%;
+}
+
+.info-container {
+    padding: 0 3rem 2rem 3rem;
+    margin: 0 10%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
+    .separator {
+        margin-bottom: 2rem;
+    }
+}
+
+.footer {
+    padding: 1rem 0;
+    text-align: center;
+    background: #9FA8DA;
+    color: white;
+}

@@ -1,0 +1,63 @@
+
+<!-- <mat-form-field class="search-form">
+    <input matInput placeholder="Search Picture" type="text">
+  </mat-form-field>
+  <button button="submit" mat-raised-button color="primary">Search</button>
+  <div class="separator"></div>
+  
+  <div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+    <mat-card class="card-picture" *ngFor="let picture of pictures">
+      <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
+         <span class="sentence" fxFlex="80%">{{picture.title}}</span>
+        <mat-icon fxFlex="10%">mode_edit</mat-icon>
+        <mat-icon fxFlex="10%">delete</mat-icon>
+      </mat-card-title>
+      <img mat-card-image [src]="picture.img">
+    </mat-card>
+  </div> -->
+
+  <mat-card>
+    <mat-card-header class="logo-image">
+    <img mat-card-image src="assets/images/logo-200x.png" alt="Photo of a Shiba Inu" style="height: 180px; width: 260px; text-align:center">
+    
+</mat-card-header>
+<div>
+    <button mat-raised-button color="primary" class="add-new-info-btn">Add new info</button>
+</div>
+    <mat-card-content>
+
+    <div class="info-container">
+        <span class="sentence">Dear Reader,</span>
+       <div class="separator"></div>
+        <span class="sentence">
+           In the cold world of big money, the consensus, it appears, is that the worst impact of the Russian invasion of Ukraine, without any provocation, is behind us. India’s stock markets gained 2.4 percent on Friday, clawing back a fair share of the 4.7 percent loss they suffered on Thursday. They must have been taking cues from the US market, which rose sharply on Thursday night. However, futures are indicating a slight drop in values on Friday night.
+       </span><small><i>[ {{ date | date : 'medium'}} ] </i></small>
+       <div class="separator"></div>
+        <span class="sentence">
+           The reports coming in at the time of writing this piece said that Russian forces were on the outskirts of Ukraine’s capital Kyiv. By the time you read this on Saturday, the situation could have changed dramatically, probably for the worse. Our coverage this week has tried to provide an overview of the geopolitical impact of the war and also hand hold investors navigating this turbulent period.
+       </span>
+       <div class="separator"></div>
+        <span class="sentence">
+           The week started off on a slightly optimistic note, when Joe Biden and Vladimir Putin had agreed to meet in principle but on the condition that Russia would not invade Ukraine. We pointed out in Ukraine and the challenge to US hegemony “Left far behind are the nineties and the noughties, when the world was supposed to be ever more closely integrated economically, under the benign auspices of Pax Americana” and that the “battle for hegemony will ensure that geopolitical risk will remain high for a very long time. All countries and markets must learn to price in this additional risk”.
+       </span>
+       <div class="separator"></div>
+        <span class="sentence">In our weekly column Eastern Window, we argued that the plan to <a href="https://www.moneycontrol.com/news/opinion/the-eastern-window-the-ukraine-plan-was-hatched-at-xi-putin-meet-in-beijing-8141151.html">invade Ukraine was hatched</a> when Putin visited China earlier this month. Even before the invasion, stock markets were headed for a period of uncertainty, argued Mohamed El-Erian in the FT (free to read for Moneycontrol Pro subscribers) due to two <a href="https://www.moneycontrol.com/news/opinion/mohamed-el-erian-there-is-more-to-market-volatility-than-ukraine-8141291.html">liquidity-related structural issues</a>. Also read <a href="https://www.moneycontrol.com/news/opinion/what-advance-pmis-for-february-say-about-growth-inflation-supply-crunch-8156561.html">what advance PMIs for February say about growth, inflation, and the supply crunch.</a></span>
+       <div class="separator"></div>
+        <span class="sentence">But the Biden-Putin meeting was never meant to be, as <a href="https://www.moneycontrol.com/news/opinion/why-putin-has-ukraines-separatist-regions-of-donetsk-and-luhansk-in-his-sights-8145881.html"> Russia recognised the independence of two separatist</a> regions in eastern Ukraine, escalating the conflict. That set the stage for Russia sending its troops to these two regions and then later mounting a full-fledged assault from land, air and sea on Ukraine. It will be appropriate here to see how the <a href="https://www.moneycontrol.com/news/opinion/how-the-great-powers-stack-up-militarily-8157651.html">Great Powers spend on their military.</a></span>
+       <div class="separator"></div>
+        <span class="sentence">The West responded to Russia’s aggression with economic sanctions, which was entirely expected but they lacked sting. Europe ensured its energy supplies were not affected which meant Russia continues to earn money from its supplies of energy and even agricultural commodities. Russia, it appears, so far has calculated well that Europe’s dependence on it for energy will save it from the worst of sanctions.</span>
+       <div class="separator"></div>
+        <span class="sentence">We wrote on how <a href="https://www.moneycontrol.com/news/business/moneycontrol-research/how-prepared-is-russia-to-deal-with-sanctions-8157271.html">Russia is poised to handle sanctions</a> while this <a href="https://www.moneycontrol.com/news/opinion/the-west-must-show-greater-resolve-over-russias-aggression-8157891.html">FT piece</a> argued that the West must show greater resolve over Russia’s aggression. We looked at the lessons we can learn from how the markets reacted to such situations in the past and how soon stocks <a href="https://www.moneycontrol.com/news/opinion/ukraine-crisis-how-long-will-it-take-for-stocks-to-bounce-back-8162741.html"> bounced back.</a> We also looked at the tell-tale signals investors must monitor to call a <a href="https://www.moneycontrol.com/news/opinion/here-are-the-signals-to-watch-out-for-to-call-the-market-bottom-8163041.html">market bottom.</a></span>
+       <div class="separator"></div>
+     </div>
+    </mat-card-content>
+    <mat-divider inset></mat-divider>
+    <mat-card-footer>
+       <div class="footer">
+        <small>Powered by ABC Company.
+            Documentation and Copyright information <a href="#">here</a>.</small>
+       </div>
+      </mat-card-footer>
+  </mat-card>
+
+  
