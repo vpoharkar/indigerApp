@@ -1,46 +1,27 @@
- # Carbon Emission Calculator
-Calculates your carbon dioxide emission when you travel from one place to another, depending on your distance and mode of transportation. You can choose among several transportation modes like small-cars, medium-cars, large-cars, or bus to see the comparisons in carbon dioxide emissions.
+# SeedApp
 
-## tech-stack
-[Typescript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), [Commander.js](https://www.npmjs.com/package/commander), [Axios](https://axios-http.com/).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.13.
 
-## prerequisites
-Go directory & launch in Visual Studio Code.
+## Development server
 
-Install all the required packages present in package.json. via command
-```
-npm install
-```
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Run application
-The application can be executed with start and end names of cities and a method of transport. The argument values can be provided with (=) or (' ').
+## Code scaffolding
 
-The application can mainly be executed via [Node](#node) V14.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-You can run the application like in the following example commands:
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-```
-ts-node ./co2-calculator.ts --start Hamburg --end Berlin --transportation-method medium-diesel-car
-```
+## Running unit tests
 
-```
-ts-node ./co2-calculator.ts --start=\"New York\" --end=\"Los Angeles\" --transportation-method=medium-diesel-car
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-```
-ts-node ./co2-calculator.ts --start \"New York\" --end \"Los Angeles\" --transportation-method medium-diesel-car
-```
+## Running end-to-end tests
 
-<br>
-<br>
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Testing
-As part of the application are also unit tests that are using the [jest](https://jestjs.io) Framework.
-You can run the tests and read test coverages with following command:
-```
-npm run test:jest
-```
-to see coverage 
-```
-npm run test:jest-coverage
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
