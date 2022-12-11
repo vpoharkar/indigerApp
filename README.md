@@ -1,4 +1,4 @@
- Carbon Footprint Calculator
+ # Carbon Footprint Calculator
 Calculates your carbon dioxide emission when you travel from one place to another, depending on your distance and mode of transportation. You can choose among several transportation modes like small-cars, medium-cars, large-cars, or bus to see the comparisons in carbon dioxide emissions.
 
 # tech-stack
